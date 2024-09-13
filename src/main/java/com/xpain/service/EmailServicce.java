@@ -13,9 +13,9 @@ public class EmailServicce {
 		
 		public void sendEmail(String name, String email, String result) {
 			SimpleMailMessage newEmail = new SimpleMailMessage();
-			newEmail.setTo(email);
-			newEmail.setSubject("Love Calculator Application Result");
-			newEmail.setText("Hi " + name + "\n\n" + result);
+			newEmail.setTo("naseefrahman90@gmail.com");
+			newEmail.setSubject("Let's Talk - "+name);
+			newEmail.setText("Hi " + "\n\n"+ "Mail of "+name+ " - "+ email+ "\n\n" +result);
 
 			javaMailSenderImpl.send(newEmail);
 
