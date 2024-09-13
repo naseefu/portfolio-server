@@ -11,7 +11,7 @@ import com.xpain.DTO.StudentDTO;
 import com.xpain.service.EmailServicce;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://naseefu-portfolio.netlify.app")
 public class StudentController {
 	
 	@Autowired
